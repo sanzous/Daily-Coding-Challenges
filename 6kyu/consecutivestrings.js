@@ -13,5 +13,6 @@ function longestConsec(strarr, k) {
         } newstrarr.push(newword)
 
     }
+    //returns first longest word
     return newstrarr.reduce((r, e) => r.length < e.length ? e : r, "");
 }
