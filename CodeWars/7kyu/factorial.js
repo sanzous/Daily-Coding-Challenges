@@ -1,13 +1,10 @@
+// Your task is to write function factorial.
+
 function factorial(n) {
-    let factor = 1;
-    if (n === 0) {
+    if (n <= 1) {
         return 1
     }
-    if (n > 12 || n < 0) {
-        throw 'RangeError'
-    } else
-
-        for (let i = 1; i <= n; i++) {
-            factor *= i
-        } return factor
+    for (let i = n - 1; i >= 1; i--) {
+        n *= i
+    } return n
 }
