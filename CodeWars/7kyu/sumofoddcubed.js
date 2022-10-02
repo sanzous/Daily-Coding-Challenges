@@ -4,7 +4,4 @@ function cubeOdd(arr) {
         return undefined
     }
     return arr.filter(e => e % 2 !== 0).map(e => e * e * e).reduce((p, c) => p + c)
-
-
-    return 0;
 }
