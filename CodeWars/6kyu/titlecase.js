@@ -16,6 +16,18 @@
 // titleCase('THE WIND IN THE WILLOWS', 'The In') // should return: 'The Wind in the Willows'
 // titleCase('the quick brown fox') // should return: 'The Quick Brown Fox'
 
+//Parameters -- Given 2 strings, the title of the book that needs to be title cased, and a string of words that are ignored for title case
+//Return -- The function will return the Title now under TitleCase where every word is now starts with a capital except for the minor words.
+//Any word that starts at the front will always be capitalized
+//Example -- if given two strings a title of 'sun Tzu's the Art of war' and a string of minorWords 'the of' the function should return Sun Tzu's the Art of War
+//Pseudo Code -- 
+//make a new variable holding a lowercased version of title
+//return an empty string if title is also an empty string
+//if minorwords is empty just return title titleCased. this can be accomplished by taking the new variable and capitalizing the first letter of each word
+//can use the charAt method on each word of the string capitalizing it and then slicing the first letter of each title word and replacing it with the capitlized letter
+//if minorwords is not empty can split the title into an array and then use the map method to create a new array capitalizing each word using the function above while ignoring any minorWords
+//then we return the new titleCased title
+
 function titleCase(title, minorWords) {
     if (!title) {
         return title
