@@ -1,4 +1,4 @@
-You have to create the function factorial that receives n and returns n!.You have to use recursion.
+// You have to create the function factorial that receives n and returns n!.You have to use recursion.
 
 
 //P - an integer that is 0 or greater
