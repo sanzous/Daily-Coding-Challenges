@@ -8,4 +8,4 @@ This repository is where I keep coding challenges that I have completed. These c
 
 
 
-To keep my skills and knowledge fresh everyday I complete atleast one coding challenge daily. Once the challenge is completed I enter it into this repository. 
+To keep my skills and knowledge fresh everyday I complete atleast one coding challenge daily. Once the challenge is completed I enter it into this repository as a way to track my progress throughout my development journey. It also allows for easy refactoring of code If I wish to revisit a completed code challenge. 
