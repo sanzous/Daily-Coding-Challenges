@@ -10,5 +10,5 @@ var containsDuplicate = function (nums) {
         } else if (hash[nums[i]]) {
             return true
         }
-    } return false
+    } return false;
 }; 
